@@ -51,7 +51,6 @@ import DatetimeRangePicker from 'react-bootstrap-datetimerangepicker';
     startDate={this.state.startDate}
     endDate={this.state.endDate}
     onApply={this.handleApply}
-    onEvent={this.handleEvent}
 >
     <input type="text" value={label}/>
 </DatetimeRangePicker>
